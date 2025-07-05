@@ -11,7 +11,7 @@ services:
       # - ./keys/fullchain.pem:/etc/nginx/keys/fullchain.pem:ro
       # - ./keys/privkey.pem:/etc/nginx/keys/privkey.pem:ro
   app:
-    image: nextcloud:15-apache
+    image: nextcloud:20-apache
     restart: always
     ports:
       - "8882:80"
